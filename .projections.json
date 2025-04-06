@@ -1,0 +1,9 @@
+{
+  "lib/ops.ex": {
+    "type": "domain"
+  },
+  "lib/ops/*.ex": {
+    "type": "domain",
+    "alternate": "test/ops/{}_test.exs"
+  }
+}
